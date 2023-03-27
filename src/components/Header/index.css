@@ -1,0 +1,105 @@
+.nav-header {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #1e1e30;
+  }
+  @media (max-width: 481px) {
+    .nav-header {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  .nav-content-large-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .web-site-logo-container {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(12, 184, 69);
+  }
+  @media (max-width: 481px) {
+    .web-site-logo-container {
+      font-size: 14px;
+    }
+  }
+  .country-name-container {
+    color: #3b82f6;
+  }
+  li {
+    list-style-type: none;
+  }
+  .nav-menu-large-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-link-large-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .mobile-menu-button-list {
+    display: none;
+  }
+  @media (max-width: 481px) {
+    .nav-link-large-container {
+      display: none;
+    }
+    .mobile-menu-button-list {
+      display: block;
+    }
+  }
+  
+  .nav-link-item-large-container {
+    text-decoration: none;
+    color: white;
+  }
+  .mobile-menu-button {
+    background-color: #1e1e30;
+    border: none;
+  }
+  .nav-menu-mobile-and-close-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    line-height: 24px;
+  }
+  .nav-menu-mobile-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+  .nav-link-mobile-container {
+    padding-right: 5px;
+  }
+  .nav-link-item-mobile-container {
+    text-decoration: none;
+    color: bisque;
+  }
+  .mobile-menu-close-button {
+    background-color: #1e1e30;
+    border: none;
+  }
+  @media (min-width: 482px) {
+    .nav-menu-mobile-and-close-container {
+      display: none;
+    }
+  }
+  .no-display-mobile-menu {
+    display: none;
+  }
+  .display-mobile-menu {
+    display: block;
+  }
+  .header-buttons {
+    background-color: #1e1e30;
+    outline: none;
+    border: none;
+    color: antiquewhite;
+  }
+  
